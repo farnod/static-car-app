@@ -1,0 +1,24 @@
+import Link from "next/link";
+import styles from "./Layout.module.css";
+
+function Layout({ children }) {
+  return (
+    <>
+      <header className={styles.header}>
+        <Link href="/">
+          <h2>FARNOUD CAR</h2>
+          <p>Choose and Buy your car</p>
+        </Link>
+      </header>
+      <div className={styles.container}>{children}</div>
+      <footer className={styles.footer}>
+        <a href="/" target="_blank">
+          Farnoud Co
+        </a>{" "}
+        Next.js courses | FarnoudCar Project &copy;
+      </footer>
+    </>
+  );
+}
+
+export default Layout;
