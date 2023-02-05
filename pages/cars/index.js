@@ -1,15 +1,5 @@
-// import CarsPage from "../../components/templates/carsPage"
-// import carsData from "../../data/carsData"
 
-// function Details() {
-//   return (
-//     <div>
-//       <CarsPage data={carsData} />
-//     </div>
-//   )
-// }
-
-// export default Details
+import Categories from "@/components/templates/categories";
 
 import CarsPage from "../../components/templates/CarsPage";
 import carsData from "../../data/carsData";
@@ -17,6 +7,7 @@ import carsData from "../../data/carsData";
 function Details() {
   return (
     <div>
+      <Categories />
       <CarsPage data={carsData} />
     </div>
   );
