@@ -8,6 +8,10 @@
     margin: 10px auto;
     border-radius: 5px;
   }
+
+  .header p{
+    padding-left: 30px;
+  }
   
   .header h2 {
     font-size: 2.3rem;

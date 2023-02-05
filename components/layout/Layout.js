@@ -6,7 +6,7 @@ function Layout({ children }) {
     <>
       <header className={styles.header}>
         <Link href="/">
-          <h2>FARNOUD CAR</h2>
+          <h2>Farnoud CAR</h2>
           <p>Choose and Buy your car</p>
         </Link>
       </header>
@@ -15,7 +15,7 @@ function Layout({ children }) {
         <a href="/" target="_blank">
           Farnoud Co
         </a>{" "}
-        Next.js courses | FarnoudCar Project &copy;
+        Next.js Made By Farnoud | FarnoudCar Project &copy;
       </footer>
     </>
   );
