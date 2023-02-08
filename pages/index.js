@@ -3,14 +3,16 @@ import carsData from "@/data/carsData";
 import CarsPage from "@/components/templates/CarsPage";
 import Categories from "@/components/module/Categories";
 import AllButton from "@/components/module/AllButton";
+import SearchBar from "../components/module/SearchBar";
 
 function Index() {
   const cars = carsData.slice(0, 3);
 	return (
 		<div>
-      <AllButton />
+      <SearchBar />
       <Categories />
-			<CarsPage data={cars} />
+      <AllButton />
+      <CarsPage data={cars} />
 		</div>
 	);
 }
