@@ -1,13 +1,9 @@
-
-import Categories from "@/components/templates/categories";
-
-import CarsPage from "../../components/templates/CarsPage";
-import carsData from "../../data/carsData";
+import carsData from "@/data/carsData";
+import CarsPage from "@/components/templates/CarsPage";
 
 function Details() {
   return (
     <div>
-      <Categories />
       <CarsPage data={carsData} />
     </div>
   );
