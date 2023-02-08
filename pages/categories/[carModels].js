@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import carsData from "@/data/carsData";
-import CarsPage from "@/components/templates/CarsPage";
+// import CarsPage from "@/components/templates/CarsPage";
+import CarsList from "@/components/templates/CarsList";
  
 
 function hatchback() {
@@ -9,7 +10,7 @@ function hatchback() {
 
     const filteredModels = carsData.filter(car => car.category === carModels )
   return (
-    <div> <CarsPage data={filteredModels} /> </div>
+    <div> <CarsList data={filteredModels} /> </div>
   )
 }
 
